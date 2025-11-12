@@ -5,21 +5,34 @@ A cozy, vintage style GRUB theme with a warm coffe-like theme and a cafe like en
 
 ## Features
 =>1920x1080 optimised
+
 => Gold brown colour palette
+
 => Minimal, immersive aesthetic
 
 ## Recommended File structure
 grub-coffee-theme/
+
 ├── theme.txt
+
 ├── coffee_background.png
+
 ├── menu_card.png
+
 ├── menu_highlight.png
+
 ├── progress_fill.png
+
 ├── progress_bar.png
+
 ├── fonts/
+
 │ ├── Lora-Regular.pf2
+
 │ └── Lora-Bold.pf2
+
 └── icons/
+
 └── coffee_icon.png
 
 ## Installation
