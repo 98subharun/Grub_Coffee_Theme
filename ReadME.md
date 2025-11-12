@@ -1,6 +1,7 @@
 # Coffe Grub Theme
 
 What is it?
+
 A cozy, vintage style GRUB theme with a warm coffe-like theme and a cafe like enviroment.
 
 ## Features
