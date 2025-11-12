@@ -1,15 +1,60 @@
-# Ignore OS and editor junk
+# === OS & Editor Junk ===
 .DS_Store
 Thumbs.db
 *~
+*.swp
+*.swo
+*.swn
 
-# Ignore backup / temp files
+# === Backup / Temp / Archives ===
 *.bak
 *.tmp
 *.log
 *.zip
+*.rar
+*.7z
+*.tar.gz
 
-# Ignore cache and build
+# === Design Source Files (KEEP THESE PRIVATE) ===
+*.psd
+*.ai
+*.sketch
+*.fig
+*.xd
+*.afdesign
+*.afphoto
+*.afpub
+
+# === Export / Build Folders ===
+export/
+exports/
+build/
+dist/
+out/
+temp/
+tmp/
+
+# === IDE / Editor Config ===
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# === Python / Dev Junk (if you ever add scripts) ===
 __pycache__/
-*.swp
-*.swo
+*.pyc
+.env
+venv/
+.venv/
+
+# === Local Testing / GRUB Installs (DON'T commit your /boot!) ===
+/boot/
+/grub/
+grub.cfg
+test-install/
+
+# === Optional: Ignore large preview videos ===
+*.mp4
+*.mov
+*.webm
