@@ -1,0 +1,15 @@
+# Ignore OS and editor junk
+.DS_Store
+Thumbs.db
+*~
+
+# Ignore backup / temp files
+*.bak
+*.tmp
+*.log
+*.zip
+
+# Ignore cache and build
+__pycache__/
+*.swp
+*.swo

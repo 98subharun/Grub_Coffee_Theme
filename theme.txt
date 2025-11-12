@@ -1,0 +1,97 @@
+# Background 
+desktop-color: #f7eedb
+desktop-image: "coffee_background.png"
+
+# Fonts 
+title-font: "fonts/Lora-Bold.pf2"
+menu-font: "fonts/Lora-Regular.pf2"
+highlight-font: "fonts/Lora-Bold.pf2"
+message-font: "fonts/Lora-Regular.pf2"
+
+# Title 
+title-text: "Welcome"
+title-color: #63513a
+title-left: 30%
+title-top: 20%
+title-shade: 2
+
+
+# Boot Menu
+
++ boot_menu {
+    left = 30%
+    top = 38%
+    width = 40%
+    height = 320
+
+    item_font = "fonts/Lora-Regular.pf2"
+    item_color = #463626
+    selected_item_color = #f7eedb
+
+    item_height = 30
+    item_padding = 6
+
+    # Backgrounds
+    item_pixmap_style = stretch
+    item_bg = "menu_card.png"
+    selected_item_bg = "menu_highlight.png"
+
+    # Icon settings
+    icon_width = 32
+    icon_height = 32
+    icon_image = "coffee_icon.png"
+
+    # Border
+    border_width = 4
+    border_color = #e3b7a0
+}
+
+
+# Progress Bar
+
++ progress_bar {
+    left = 35%
+    top = 80%
+    width = 30%
+    height = 18
+
+    fg_color = #bfa87a
+    bg_color = #e3b7a0
+    border_color = #b9a16b
+    border_width = 2
+
+    fg_image = "progress_fill.png"
+    bg_image = "progress_bar.png"
+}
+
+progress_text_font: "fonts/Lora-Regular.pf2"
+progress_text_color: #463626
+
+#Textbox
+
++ textbox {
+    left = 24%
+    top = 75%
+    width = 52%
+    height = 67
+
+    font = "fonts/Lora-Regular.pf2"
+    color = #463626
+    background_color = #f7eedb
+    border_color = #bfa87a
+    border_width = 2
+}
+
+
+
+# Messages
+
+message-font: "fonts/Lora-Regular.pf2"
+message-color: #463626
+message-bg: #f7eedb
+message-border-color: #e3b7a0
+message-border-width: 2
+
+# Menu Icon
+
+menu_entry_icon: "coffee_icon.png"
